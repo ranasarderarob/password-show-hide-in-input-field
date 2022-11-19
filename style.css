@@ -1,38 +1,35 @@
-
 .form{
-    padding: 25px 30px;
-  }
-  .form {
-    margin: 250px 350px;
-  }
-  .form .field{
-    display: flex;
-    margin-bottom: 10px;
-    flex-direction: column;
-    position: relative;
-  }
-  .form .field label{
-    margin-bottom: 5px;
-  }
-  .form .input input{
-    height: 40px;
-    width: 100%;
-    font-size: 16px;
-    padding: 0 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  .form .field i{
-    position: absolute;
-    right: 15px;
-    top: 70%;
-    color: #ccc;
-    cursor: pointer;
-    transform: translateY(-50%);
-  }
- .form .field i.active::before{
-     color: #333;
-     content: "\f070";
+  padding: 25px 30px;
 }
-
- 
+.form {
+  margin: 250px 350px;
+}
+.form .field{
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+  position: relative;
+}
+.form .field label{
+  margin-bottom: 5px;
+}
+.form .input input{
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.form .field i{
+  position: absolute;
+  right: 15px;
+  top: 70%;
+  color: #ccc;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+.form .field i.active::before{
+  color: #333;
+  content: "\f070";
+}
